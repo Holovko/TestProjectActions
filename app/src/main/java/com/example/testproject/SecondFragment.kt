@@ -1,6 +1,7 @@
 package com.example.testproject
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -33,6 +34,7 @@ class SecondFragment : Fragment() {
         .setOnClickListener {
           findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
           val t = 1+1
+          Log.d("TAG", "2 =$t")
         }
   }
 }
