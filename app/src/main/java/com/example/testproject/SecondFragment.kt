@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
+ * Some comments
  */
 class SecondFragment : Fragment() {
 
@@ -31,6 +32,7 @@ class SecondFragment : Fragment() {
     view.findViewById<Button>(R.id.button_second)
         .setOnClickListener {
           findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+          val t = 1+1
         }
   }
 }
