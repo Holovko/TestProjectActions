@@ -7,6 +7,8 @@ import android.view.Menu
 import android.view.MenuItem
 
 import kotlinx.android.synthetic.main.activity_main.*
+import java.text.SimpleDateFormat
+import java.util.logging.SimpleFormatter
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,6 +21,8 @@ class MainActivity : AppCompatActivity() {
       Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
           .setAction("Action3", null)
           .show()
+
+      SimpleDateFormat("")
     }
   }
 
