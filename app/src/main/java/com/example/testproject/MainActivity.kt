@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
       Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
           .setAction("Action3", null)
           .show()
+      SimpleDateFormat("")
     }
   }
 
